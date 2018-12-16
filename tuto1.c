@@ -13,5 +13,14 @@ int main(void)
 
    printf("variable = %d\n", variable);
 
+   int tab[3];
+   int * p;
+   int ** pp;
+   int (*pt)[3];
+
+   p = tab;
+   pp = &tab;
+   pt = &tab;
+
    return 0;
 }
